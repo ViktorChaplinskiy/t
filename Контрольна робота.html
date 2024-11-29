@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+form{
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size:120%;
+}
+body {
+  background-image: url('images/fizika.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+</style>
+<title>Контрольна робота</title>
+<link href="images/favicon1.ico" rel="icon" type="image/x-icon">
+</head>
+<body>
+<nav>
+  <a href="Головна.html">Головна сторінка</a> |
+  <a href="Теорія 1.html">Теорія 1</a> |
+  <a href="Теорія 2.html">Теорія 2</a> |
+  <a href="Контрольна робота.html">Контрольна робота</a>
+</nav>
+
+<h1 style="color:white">Контрольна робота<br> Варіант I</h1>
+<form action="Контрольна робота" target='_blank'method='post'>
+  <fieldset>
+  <legend>1.Впишіть у вільне поле:</legend>
+  <label for="password">Фізична величина, яка характеризує стан теплової рівноваги системи тіл - це:</label>
+  <input type="text"id="password" name="password"autocomplete="on" size="10"><br>
+  <input type="submit" value="Відправити">
+  <input type="reset"value="Скасувати"><br>
+  </fieldset>
+  <fieldset>
+  <legend>2.Яким приладом вимірюється температура:</legend>
+  <input type="radio" name="instrument" value=""> Вольтметр<br>
+  <input type="radio" name="instrument" value=""> Спідометр<br>
+  <input type="radio" name="instrument" value=""> Термометр<br>
+  <input type="radio" name="instrument" value=""> Барометр<br>
+  <input type="radio" name="instrument" value=""> Ареометр
+  </fieldset>
+  <fieldset>
+  <legend>3.Оберіть правильну відповідь:</legend>
+  <input type="checkbox" name="vehicle1" value=""> Для вимірювання температури за шкалою Цельсія використовують -«°C»  <br>
+  <input type="checkbox" name="vehicle2" value=""> Для вимірювання температури за шкалою Цельсія використовують -«°К»<br>
+  <input type="checkbox" name="vehicle3" value=""> Для вимірювання температури за шкалою Цельсія використовують -«°М»<br>
+  <input type="checkbox" name="vehicle4" value=""> Для вимірювання температури за шкалою Цельсія використовують -«°Ш»
+  </fieldset>
+  <fieldset>
+  <legend>4.При контакті більш нагрітого тіла з менш нагрітим:</legend>
+  <input type="checkbox" name="vehicle1" value=""> Більш нагріте тіло завжди нагрівається, а менш нагріте — охолоджується.  <br>
+  <input type="checkbox" name="vehicle2" value=""> Більш нагріте тіло завжди охолоджується, а менш нагріте — нагрівається.<br>
+  <input type="checkbox" name="vehicle3" value=""> Більш нагріте тіло завжди змінюється, а менш нагріте — незмінюється.<br>
+  <input type="checkbox" name="vehicle4" value=""> Більш нагріте тіло завжди незмінюється, а менш нагріте — змінюється.
+  </fieldset>
+  <fieldset>
+  <legend>5.У системі СІ за основну одиницю температури взято:</legend>
+  <input type="radio" name="instrument" value=""> «°Ш»<br>
+  <input type="radio" name="instrument" value=""> «°К»<br>
+  <input type="radio" name="instrument" value=""> «°М»<br>
+  <input type="radio" name="instrument" value=""> «°C»<br>
+  <input type="radio" name="instrument" value=""> «°Ф»
+  </fieldset>
+  <fieldset>
+  <legend>6.Значення температур:</legend>
+  Введіть температуру танення льоду,°C:
+  <input type="numeric" name="" max="100"><br>
+  Введіть температуру кипіння води,°C:
+  <input type="numeric" name="" min="0"><br>
+  </fieldset>
+  </form>
+</body>
+</html>
